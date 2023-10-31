@@ -45,19 +45,12 @@
       "header": {
         "type": "header",
         "settings": {
-          "announcement_bar_enabled": false,
-          "announcement_bar_home_page_only": true,
-          "announcement_bar_text": "Announce something here",
-          "announcement_bar_link": "",
-          "logo_max_width": 250,
-          "menu": "main-menu"
+          "logo": "shopify:\/\/shop_images\/logo.png"
         }
       },
       "footer": {
         "type": "footer",
         "settings": {
-          "footer_linklist": "footer",
-          "show_payment_icons": false
         }
       }
     },
