@@ -4,8 +4,23 @@
     "theme_name": "Starter theme",
     "theme_version": "1.0.0",
     "theme_author": "THEME_AUTHOR",
-    "theme_documentation_url": "https:\/\/THEME_DOCUMENTATION_URL.com\/",
-    "theme_support_url": "https:\/\/THEME_SUPPORT_URL.com\/"
+    "theme_documentation_url": "https://THEME_DOCUMENTATION_URL.com/",
+    "theme_support_url": "https://THEME_SUPPORT_URL.com/"
+  },
+  {
+    "name": "Store Settings",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Currency"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_currency_selector",
+        "label": "Enable currency selector",
+        "default": false
+      }
+    ]
   },
   {
     "name": "Colors",
@@ -59,7 +74,7 @@
         "type": "image_picker",
         "id": "share_image",
         "label": "Image",
-        "info": "Shown when sharing a link on social media. [Learn more](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/showing-social-media-thumbnail-images\/) about image thumbnails."
+        "info": "Shown when sharing a link on social media. [Learn more](https://help.shopify.com/manual/using-themes/troubleshooting/showing-social-media-thumbnail-images/) about image thumbnails."
       },
       {
         "type": "header",
